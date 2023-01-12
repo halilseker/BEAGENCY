@@ -186,3 +186,26 @@ a {
   border-bottom: solid gray 1px;
   color: white;
 }
+.mainContent5 div {
+  border: solid yellow 1px;
+  color: white;
+}
+.mainContent5 img {
+  border-radius: 50px;
+}
+.mainContent5 .bq_wrapper {
+  margin: 0 6% 20px;
+  background: rgba(0, 0, 0, 0.02);
+  padding: 30px 40px 10px;
+  margin-bottom: 20px;
+}
+.bq_wrapper blockquote {
+  font-size: 17px;
+  line-height: 31px;
+  display: block;
+  height: auto;
+  margin: 0 0 35px 25px;
+  top: 15px;
+  position: relative;
+  background-image: url(./img/textline_dark.png);
+}
