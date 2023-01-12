@@ -209,3 +209,19 @@ a {
   position: relative;
   background-image: url(./img/textline_dark.png);
 }
+hr.hr_color,
+.hr_color hr,
+.hr_dots span {
+  color: #5e33ff;
+  background: #5e33ff;
+}
+
+.hr_dots span {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  overflow: hidden;
+  margin: 0 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
