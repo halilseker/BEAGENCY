@@ -225,3 +225,13 @@ hr.hr_color,
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
+.mainFooter div {
+  border: solid yellow 1px;
+  color: white;
+}
+#Footer .widgets_wrapper {
+  padding: 70px 0;
+}
+#Footer .allrights {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
