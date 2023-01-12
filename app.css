@@ -98,6 +98,7 @@ body {
   color: white;
   margin-bottom: 15px;
 }
+
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .mainAllh2 {
     font-size: 36px;
@@ -112,6 +113,7 @@ body {
     letter-spacing: 0px;
   }
 }
+
 #mainSection2 .indicators div {
   font-family: 'Archivo', Arial, Tahoma, sans-serif;
   font-size: 80px;
@@ -170,4 +172,7 @@ body {
 }
 .checkoutMainContent2 {
   margin-top: 3rem;
+}
+.mainContent3 {
+  color: white;
 }
