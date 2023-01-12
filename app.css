@@ -176,3 +176,13 @@ body {
 .mainContent3 {
   color: white;
 }
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.mainContent4 div:nth-of-type(2) .content4Right {
+  border-bottom: solid gray 1px;
+  color: white;
+}

@@ -19,5 +19,3 @@ function handleChange(query) {
 }
 query.addEventListener('change', handleChange);
 handleChange(query);
-
-indicatorsNums;
