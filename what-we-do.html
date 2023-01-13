@@ -34,36 +34,56 @@
         <button
           class="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+          style="background-color: #5e33ff"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon" style="color: #ddff33"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">What we do?</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Our team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Our team</a>
-            </li>
-          </ul>
-          <div class="d-flex flex-row-reverse">
-            <a class="nav-link" href="#">Link</a>
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+              <!-- Dark offcanvas -->
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
           </div>
-          <!-- <div><a href="">Hire Us</a></div> -->
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">What we do?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our team</a>
+              </li>
+            </ul>
+            <div class="d-sm-block flex-row-reverse py-3 px-4">
+              <a
+                href="https://themes.muffingroup.com/be/agency6/contact-us/#contact-form"
+                class="btn btn-primary navHireUs"
+                >Hire us</a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </nav>
@@ -76,12 +96,10 @@
             class="col-md-6 order-2 order-md-1 align-self-center"
           >
             <span class="firstSpan align-content-center">
-              See the
-              <span>digital future</span>
-              of your
-              <span>business</span>
-              &amp; <br />
-              make it come true
+              Our
+              <span>services</span>
+              <br />
+              <span>See what we do</span>
             </span>
             <span class="secondSpan d-flex">
               <button
@@ -90,271 +108,82 @@
               >
                 <i class="bi bi-arrow-right redirectArrow"></i>
               </button>
-              <a class="d-none d-md-inline" href="#">Get to know us better</a>
+              <a class="d-none d-md-inline" href="#">Please contact us</a>
             </span>
           </div>
           <div id="" class="col-md-6 order-1 order-md-2">
             .col-md-8
             <img
               class="img-fluid"
-              src="./img/agency6-slider-pic1.webp"
+              src="./img/agency6-whatwedo-pic1.webp"
               alt=""
             />
           </div>
         </div>
       </div>
-      <div class="row mainContent1-brand">
-        <div class="col-md-5 d-none d-md-inline">
-          <div class="container text-center">
-            <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-            <div class="row">
-              <div class="col-md-4"></div>
-              <div class="col-6 col-md-8">
-                <div class="anotherSpan d-flex row">
-                  <div class="col-3">
-                    <div class="p-3 align-items-center">
-                      <!-- <button
-                        type="button"
-                        class="btn btn-outline-success greenRedirectBtn"
-                      >
-                        <i class="bi bi-arrow-right redirectArrow"></i>
-                      </button> -->
-                    </div>
-                  </div>
-
-                  <div class="col-9 d-flex align-items-center">
-                    <button
-                      type="button"
-                      class="btn btn-outline-success greenRedirectBtn"
-                    >
-                      <i class="bi bi-arrow-right redirectArrow"></i>
-                    </button>
-                    <div class="donthesitate">
-                      <p>Don't hesitate to contact us</p>
-                      <a class="d-none d-md-inline" href="#"
-                        >+351 915 123 321</a
-                      >
-                    </div>
-                  </div>
-                </div>
-                <!-- <span class="anotherSpan d-flex p-4">
-                  <button
-                    type="button"
-                    class="btn btn-outline-success greenRedirectBtn"
-                  >
-                    <i class="bi bi-arrow-right redirectArrow"></i>
-                  </button>
-                  <p>Don't hesitate to contact us</p>
-                  <a class="d-none d-md-inline" href="#"
-                    >Get to know us better</a
-                  >
-                </span> -->
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="d-none d-md-inline col-md-6">
-          <div class="p-3">
-            <ul class="clients clearfix row gy-5">
-              <li style="width: 25%">
-                <div class="client_wrapper">
-                  <a target="_blank" href="#" title="5stars"
-                    ><div class="gs-wrapper">
-                      <img
-                        width="150"
-                        height="69"
-                        src="./img/agency6-clients-pic4-150x69.webp"
-                        class="img-fluid scale-with-grid wp-post-image"
-                        sizes="(max-width: 150px) 100vw, 150px"
-                      /></div
-                  ></a>
-                </div>
-              </li>
-              <li style="width: 25%">
-                <div class="client_wrapper">
-                  <a target="_blank" href="#" title="Spasio"
-                    ><div class="gs-wrapper">
-                      <img
-                        width="150"
-                        height="69"
-                        src="./img/agency6-clients-pic3-150x69.webp"
-                        class="img-fluid scale-with-grid wp-post-image"
-                        sizes="(max-width: 150px) 100vw, 150px"
-                      /></div
-                  ></a>
-                </div>
-              </li>
-              <li style="width: 25%">
-                <div class="client_wrapper">
-                  <a target="_blank" href="#" title="Tritanium"
-                    ><div class="gs-wrapper">
-                      <img
-                        width="150"
-                        height="69"
-                        src="./img/agency6-clients-pic2-150x69.webp"
-                        class="img-fluid scale-with-grid wp-post-image"
-                        sizes="(max-width: 150px) 100vw, 150px"
-                      /></div
-                  ></a>
-                </div>
-              </li>
-              <li style="width: 25%">
-                <div class="client_wrapper">
-                  <a target="_blank" href="#" title="Sunseo"
-                    ><div class="gs-wrapper">
-                      <img
-                        width="150"
-                        height="69"
-                        src="./img/agency6-clients-pic1-150x69.webp"
-                        class="img-fluid scale-with-grid wp-post-image"
-                        sizes="(max-width: 150px) 100vw, 150px"
-                      /></div
-                  ></a>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
     </section>
 
-    <section class="container-fluid px-0">
-      <div class="container text-center maincontent2">
-        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-        <div id="mainSection2" class="row">
-          <div id="" class="d-flex justify-content-start col-12">
-            <h2 class="mainAllh2">
-              Number of <span class="themecolor">projects</span> we've
-              accomplished so far
-            </h2>
-          </div>
-          <div class="container">
-            <div
-              class="row d-flex justify-content-around indicators align-items-center"
-            >
-              <div class="row col-md-6 justify-content-around">
-                <div id="" class="col-md-2 indicatorsNums">
-                  <span class=""
-                    ><span class="number" data-to="3">3</span></span
-                  >
-                </div>
-                <div id="" class="col-md-2 indicatorsNums">
-                  <span class=""
-                    ><span class="number" data-to="3">4</span></span
-                  >
-                </div>
-                <div id="" class="col-md-2 indicatorsNums">
-                  <span class=""
-                    ><span class="number" data-to="3">9</span></span
-                  >
-                </div>
-              </div>
-              <div id="" class="col-md">
-                <!-- <div class="" style="padding: 65px 0 20px"> -->
-                <div class="">
-                  <h2 style="color: #ddff33">clients</h2>
-                </div>
-              </div>
-              <div id="" class="col-md">
-                <div class="column_attr clearfix align_center" style="">
-                  <h6>2020</h6>
-                  <p>
-                    Thanks to our hard work and great projects we achieved huge
-                    client satisfaction.
-                  </p>
-                  <h2 class="themecolor">
-                    <span class="counter-inline animate-math"
-                      ><span class="number" data-to="87">87</span></span
-                    >%
-                  </h2>
-                </div>
-              </div>
-            </div>
-            <div class="row justify-content-center afterIndicator">
-              <div class=""></div>
-              <div class="col-md-4 ourGoal">
-                <h4 class="themecolor">
-                  Our goal is to deliver our clients top service
-                </h4>
-              </div>
-              <!-- style="padding-top: 5px" -->
-              <div style="padding-top: 2px" class="col-md-4">
-                <h4>
-                  Every day we do our best to meet the challenges set
-                  <b>by your brand</b> and always do our work with the highest
-                  quality and passion
-                </h4>
-              </div>
-              <div class="row checkoutMainContent2">
-                <!-- style="padding: 15px 0 0 80px" -->
-                <div class="col align-self-center">
-                  <button
-                    type="button"
-                    class="btn btn-outline-success greenRedirectBtn"
-                  >
-                    <i class="bi bi-arrow-right redirectArrow"></i>
-                  </button>
-                  <a class="d-md-inline" style="text-decoration: none" href="#"
-                    >Check out these testimonials from our clients</a
-                  >
-                  <!-- <span class="d-flex"> </span> -->
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- <div class="d-flex justify-content-center">
-            <div class="col"></div>
-            <div class="col"></div>
-          </div> -->
-        </div>
-      </div>
-    </section>
-    <section class="container px-4 text-center mainContent3">
+    <section class="container px-4 text-center mainContent3 wwd-content1">
       <div class="row gx-5">
-        <div class="col-md-7">
+        <div class="col-md-7 wwd-content1-pic1">
           <div class="p-3">
             <!-- <div id="" class="col-md-6 order-1 order-md-2"></div> -->
           </div>
-          <img class="img-fluid" src="./img/agency6-about-pic2.webp" alt="" />
+          <img
+            class="img-fluid"
+            src="./img/agency6-whatwedo-pic2.webp"
+            alt=""
+          />
         </div>
         <div class="col-md-5">
-          <h6>ABOUT US</h6>
-          <h2 class="mainAllh2">
-            We are the team of <span class="themecolor">enthusiasts</span>
-          </h2>
-          <hr class="no_line" style="margin: 0 auto 15px auto" />
+          <div class="container px-2 text-center">
+            <div class="row gx-4">
+              <div class="col-12">
+                <div class="p-3">
+                  <div class="d-flex flex-column mb-3 justify-content-start">
+                    <h6 class="">YOU CAN DO WITH US</h6>
+                    <h2 class="">Websites</h2>
+                    <h2 class="">Cur aehimenaeos fermentum dictumst</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="row">
+                  <div class="col col-sm-12 col-md-6 p-1">
+                    <img
+                      class="scale-with-grid"
+                      src="https://themes.muffingroup.com/be/agency6/wp-content/uploads/2021/09/agency6-whatwedo-icon1.webp"
+                      alt=""
+                    />
+                    <p>Consectetur cursus etiam etiam donec libero quisque</p>
+                  </div>
+                  <div class="col col-sm-12 col-md-6 p-1">
+                    <img
+                      class="scale-with-grid"
+                      src="https://themes.muffingroup.com/be/agency6/wp-content/uploads/2021/09/agency6-whatwedo-icon2.webp"
+                      alt=""
+                    />
+                    <p>Id dictumst cras dapibus potenti quisque lorem</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6"></div>
+            <div class="col-12">
+              <div class="p-3">
+                <p>
+                  Quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                  ea commodo consequat. Duis aute irure dolor in reprehenderit
+                  in voluptate velit
+                </p>
+                <hr class="no_line" style="margin: 0 auto 40px auto" />
 
-          <p>
-            Scelerisque aenean cras lacinia feugiat phasellus praesent placerat
-            suspendisse arcu mollis litora et sociosqu at rhoncus neque
-            porttitor auctor vel augue imperdiet viverra hendrerit morbi.
-          </p>
-          <hr class="no_line" style="margin: 0 auto 15px auto" />
-
-          <ul class="list_custom">
-            <li>
-              <i class="fas fa-check-circle" style="color: #ddff33"></i>Dolor
-              aptent libero dictum
-            </li>
-            <li>
-              <i class="fas fa-check-circle" style="color: #ddff33"></i>Platea
-              varius torquent etiam
-            </li>
-            <li>
-              <i class="fas fa-check-circle" style="color: #ddff33"></i>Lobortis
-              eros aliquam consequat
-            </li>
-          </ul>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-            <button class="btn btn-primary me-md-2" type="button">
-              Read more
-            </button>
+                <a class="button button_size_2" href="#"
+                  ><span class="button_label">Read more</span></a
+                >
+              </div>
+            </div>
           </div>
-          <!-- <a
-            class="button button_size_2"
-            href="https://themes.muffingroup.com/be/agency6/our-team/"
-            ><span class="button_label">Read more</span></a
-          > -->
         </div>
       </div>
     </section>

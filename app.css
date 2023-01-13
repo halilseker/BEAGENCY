@@ -270,3 +270,15 @@ hr.hr_color,
 .mainContent1-brand {
   color: white;
 }
+
+/* *****************WHAT-WE-DO************* */
+.wwd-content1-pic1 {
+  width: 50%;
+}
+@media only screen and (max-width: 767px) {
+  .wwd-content1-pic1 {
+    margin: 0;
+    width: 100% !important;
+    clear: both;
+  }
+}
