@@ -1,10 +1,13 @@
 var element = document.querySelector('.secondSpan');
 var query = window.matchMedia('(min-width: 778px)');
+var navHireUs = document.querySelector('.navHireUs');
 
 function handleChange(query) {
   if (query.matches) {
     element.classList.remove('justify-content-center');
     element.classList.add('justify-content-start');
+    // navHireUs.classList.remove('justify-content-center');
+    // navHireUs.classList.add('d-none d-md-inline');
   } else {
     element.classList.remove('justify-content-start');
     element.classList.add('justify-content-center');
