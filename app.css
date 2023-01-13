@@ -7,6 +7,12 @@ body {
 #mainNavbar {
   background-color: #1b1726;
 }
+/* .offcanvas {
+  right: -250px;
+  max-width: 100%;
+  width: 250px;
+  height: 100%;
+} */
 .navHireUs {
   font-family: 'Archivo', Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -71,12 +77,9 @@ body {
   margin-bottom: 100px;
 }
 
-@media (max-width: 1200px) {
-  /* .maincontent1 span button {
-    font-weight: 100;
-    font-size: 3rem;
-  } */
-}
+/* @media (max-width: 1200px) {
+
+} */
 /* .maincontent2 h2 {
   font-size: 48px;
   line-height: 58px;
