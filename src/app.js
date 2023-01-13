@@ -1,21 +1,38 @@
 var element = document.querySelector('.secondSpan');
-//var indicatorsNums = document.querySelector('.indicatorsNums');
-
 var query = window.matchMedia('(min-width: 778px)');
 
 function handleChange(query) {
   if (query.matches) {
     element.classList.remove('justify-content-center');
     element.classList.add('justify-content-start');
-    // indicatorsNums.classList.remove('col-md-2');
-    // indicatorsNums.classList.add('col-2');
   } else {
     element.classList.remove('justify-content-start');
     element.classList.add('justify-content-center');
-
-    // indicatorsNums.classList.remove('col-2');
-    // indicatorsNums.classList.add('col-md-2');
   }
 }
 query.addEventListener('change', handleChange);
 handleChange(query);
+
+// @media only screen and (min-width: 480px) and (max-width: 767px) {
+//   .donthesitate {
+//   }
+// }
+// @media only screen and (min-width: 768px) and (max-width: 959px) {
+//   .donthesitate {
+
+//   }
+// }
+// var donthesitate = document.querySelector('.donthesitate');
+// var query2 = window.matchMedia('(max-width: 995px)');
+
+// function handleChange2(query2) {
+//   if (query2.matches) {
+//     donthesitate.classList.remove('p-3');
+//     donthesitate.classList.add('');
+//   } else {
+//     donthesitate.classList.remove('');
+//     donthesitate.classList.add('p-3');
+//   }
+// }
+// query2.addEventListener('change', handleChange2);
+// handleChange(query2);

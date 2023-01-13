@@ -22,6 +22,19 @@ body {
   border: solid yellow 3px;
 }
 
+@media only screen and (min-width: 959px) {
+  .donthesitate {
+    padding: 0.5rem;
+    /* height: 50%;
+    width: 50%; */
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .donthesitate {
+    padding: 0.2rem;
+  }
+}
+
 .firstSpan {
   /* background-color: blueviolet !important; */
   /* padding: 1em 0; */
@@ -234,4 +247,7 @@ hr.hr_color,
 }
 #Footer .allrights {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.mainContent1-brand {
+  color: white;
 }
