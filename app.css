@@ -286,3 +286,13 @@ hr.hr_color,
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
+/* *****************OUR-TEAM************* */
+.ourt-mainContent div {
+  border: solid yellow 1px;
+  color: white;
+}
+
+.ourt-c2 {
+  padding-top: 120px;
+}
