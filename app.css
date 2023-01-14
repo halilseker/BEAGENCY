@@ -296,3 +296,14 @@ hr.hr_color,
 .ourt-c2 {
   padding-top: 120px;
 }
+.ourt-c3 {
+  border: solid yellow 1px;
+  color: white;
+}
+.ourt-dots1 {
+  padding: 0 2%;
+  border-bottom: 3px dotted #ddff33;
+}
+.ourt-dots-space div {
+  margin-bottom: 10px;
+}
