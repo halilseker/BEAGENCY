@@ -323,3 +323,37 @@ hr.hr_color,
   border-width: 0px;
   border-radius: 24px;
 }
+
+/* .portfolio-icon {
+
+  background-color: #ff8c66;
+  border-radius: 24px;
+}  */
+.portfolio-icon {
+  color: #1b1726;
+  background-color: #ff8c66;
+  border-color: transparent;
+  font-family: Archivo;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  padding: 15px 40px 15px 40px;
+  border-width: 0px;
+  border-radius: 24px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.portfolio-ReadMore {
+  color: #1b1726;
+  background-color: #ff8c66;
+  border-color: transparent;
+  font-family: Archivo;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  padding: 15px 20px 15px 20px;
+  border-width: 0px;
+  border-radius: 24px;
+}
