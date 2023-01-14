@@ -288,7 +288,8 @@ hr.hr_color,
 }
 
 /* *****************OUR-TEAM************* */
-.ourt-mainContent div {
+.ourt-mainContent div,
+.port-maincontent-1 div {
   border: solid yellow 1px;
   color: white;
 }
@@ -296,7 +297,8 @@ hr.hr_color,
 .ourt-c2 {
   padding-top: 120px;
 }
-.ourt-c3 {
+.ourt-c3,
+.port-maincontent-1 {
   border: solid yellow 1px;
   color: white;
 }
