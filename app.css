@@ -357,3 +357,17 @@ hr.hr_color,
   border-width: 0px;
   border-radius: 24px;
 }
+.contact-us-form {
+  padding: 40px 80px 0;
+}
+.contact-us-form div input,
+.contact-us-form div textarea {
+  color: #e0e0e0;
+  /* background-color: rgba(50, 45, 62, 1); */
+  background-color: #495057;
+  border-color: #ebebeb;
+  border-radius: 24px;
+}
+.contact-form-header {
+  border: 3px yellow dotted;
+}
