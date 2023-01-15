@@ -371,3 +371,7 @@ hr.hr_color,
 .contact-form-header {
   border: 3px yellow dotted;
 }
+
+.contact-us-form div label {
+  color: black;
+}
